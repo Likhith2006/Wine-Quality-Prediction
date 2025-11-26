@@ -41,7 +41,7 @@ if nav=="VISUALIZATION":
         fig = go.Figure(data=go.Scatter(x=data["alcohol"], y=data["quality"], mode='markers'),layout = layout)
         st.plotly_chart(fig)
     st.write("A PROJECT BY")
-    st.markdown("<h1 style='font-size: 20px;'>SYAM KRISHNA REDDY PULAGAM</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='font-size: 20px;'></h1>", unsafe_allow_html=True)
 if nav=="PREDICT":
     st.image("wine_quality_prediction.jpg",width=500)
     st.header("prediction")
@@ -91,4 +91,5 @@ if nav=="CONTRIBUTE":
     if st.button("submit"):
         st.success("Submitted")
     st.write("A PROJECT BY")
-    st.markdown("<h1 style='font-size: 20px;'>SYAM KRISHNA REDDY PULAGAM</h1>", unsafe_allow_html=True)
+
+    st.markdown("<h1 style='font-size: 20px;'></h1>", unsafe_allow_html=True)
